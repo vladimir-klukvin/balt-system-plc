@@ -1,0 +1,29 @@
+{
+    "name": "balt-system-plc",
+    "displayName": "Balt-System PLC",
+    "description": "A VSC extension to support Balt-System PLC work",
+    "publisher": "Klukvin",
+    "version": "0.1.0",
+    "repository": {
+        "url": ""
+    },
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "bsplc",
+            "aliases": ["Balt-System PLC"],
+            "extensions": [".bsplc"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "bsplc",
+            "scopeName": "source.bsplc",
+            "path": "./syntaxes/bsplc.tmLanguage.json"
+        }]
+    }
+}
