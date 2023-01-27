@@ -3,7 +3,7 @@
     "displayName": "Balt-System PLC",
     "description": "A VSC extension to support Balt-System PLC work",
     "publisher": "Klukvin",
-    "version": "0.1.0",
+    "version": "0.2.1",
     "repository": {
         "url": "https://github.com/vladimir-klukvin/balt-system-plc"
     },
@@ -12,6 +12,10 @@
     },
     "categories": [
         "Programming Languages"
+    ],
+    "main": "./src/extension.js",
+    "activationEvents": [
+        "onLanguage:bsplc"
     ],
     "contributes": {
         "languages": [{
