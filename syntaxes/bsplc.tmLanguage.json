@@ -49,7 +49,7 @@
                 },
                 {
                     "name": "entity.name.function.bsplc",
-                    "match": "(?i)(MUX|BLABLA)"
+                    "match": "(?i)(ENC|DEC|BCD|BIN|ABS|SGN|MUX|HIG|LOW|XCH)"
                 }
             ]
         },
@@ -57,7 +57,7 @@
             "patterns": [
                 {
                     "name": "constant.language",
-                    "match": "\\b(?i)(DOF|DOE|ENDE|ENDE)\\b"
+                    "match": "\\b(?i)(DOF|DOE|ENDF|ENDE)\\b"
                 },
                 {
                     "name": "constant.numeric",
